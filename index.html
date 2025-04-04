@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Software Development Hub</title>
+    <!-- Linking to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Welcome to my Student Software Development Hub</h1>
+        <p>My hub is a go-to resource for learning and collaboration in software development.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#registration">Registration</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content -->
+    <main>
+        <!-- Ordered list with Roman numerals -->
+        <section id="resources">
+            <h2>Learning Resources</h2>
+            <ol type="I">
+                <li>Introduction to Programming</li>
+                <li>Web Development Basics</li>
+                <li>Version Control with Git</li>
+                <li>Database Management Systems</li>
+                <li>Building Projects</li>
+            </ol>
+        </section>
+
+        <!-- External image from Pexels -->
+        <section id="image">
+            <h2>Inspiration for Developers</h2>
+            <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg" alt="Coding workspace" width="600">
+        </section>
+
+        <!-- Table of contacts -->
+        <section id="contacts">
+            <h2>Contact Information</h2>
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Main St, New York, NY</td>
+                    <td>(123) 456-7890</td>
+                    <td>john.doe@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Elm St, Los Angeles, CA</td>
+                    <td>(987) 654-3210</td>
+                    <td>jane.smith@example.com</td>
+                </tr>
+                <tr>
+                    <td>Alice Johnson</td>
+                    <td>789 Oak St, Chicago, IL</td>
+                    <td>(555) 123-4567</td>
+                    <td>alice.johnson@example.com</td>
+                </tr>
+                <tr>
+                    <td>Bob Brown</td>
+                    <td>321 Pine St, Houston, TX</td>
+                    <td>(444) 987-6543</td>
+                    <td>bob.brown@example.com</td>
+                </tr>
+                <tr>
+                    <td>Susan Lee</td>
+                    <td>654 Cedar St, Miami, FL</td>
+                    <td>(333) 876-5432</td>
+                    <td>susan.lee@example.com</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Registration form -->
+        <section id="registration">
+            <h2>Registration Form</h2>
+            <!-- Form starts here -->
+             <
+            <form action="/submit-form" method="POST">
+                <!-- Name field -->
+                <label for="name">Name:</label><br />
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br /><br />
+
+                <!-- Email field -->
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br /><br />
+
+                <!-- Password field -->
+                <label for="password">Password:</label><br />
+                <input type="password" id="password" name="password" placeholder="Create a password" minlength="8" required><br /><br />
+
+                <!-- Date field -->
+                <label for="dob">Date of Birth:</label><br />
+                <input type="date" id="dob" name="dob"><br /><br />
+
+                <!-- Dropdown menu -->
+                <label for="language">Preferred Programming Language:</label><br />
+                <select id="language" name="language">
+                    <option value="">Select a language...</option>
+                    <option value="python">Python</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="java">Java</option>
+                    <option value="c++">C++</option>
+                </select><br /><br />
+
+                <!-- Radio buttons -->
+                Gender:<br />
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br />
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br /><br />
+
+                <!-- Checkboxes -->
+                Interests:<br />
+                <input type="checkbox" id="webdev" name="interests[]" value="webdev">
+                <label for="webdev">Web Development</label><br />
+                <input type="checkbox" id="datasci" name="interests[]" value="datasci">
+                <label for="datasci">Data Science</label><br />
+                <input type="checkbox" id="ai_ml" name="interests[]" value="ai_ml">
+                <label for="ai_ml">AI & Machine Learning</label><br /><br />
+
+                <!-- Submit button -->
+                <button type="submit">Register Now!</button><br />
+            </form><!-- Form ends here -->
+        </section><!-- Registration section ends here -->
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2025 Student Software Development Hub. All rights reserved.</p>
+    </footer>
